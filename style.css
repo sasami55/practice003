@@ -1,0 +1,38 @@
+
+h1 {
+    color: green;
+}
+
+.today{
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+
+.a{
+    background-color: #f00;
+    float:left;
+    width: 50%;
+    position: relative;
+}
+
+.a img{
+    width: 100px;
+    height: 100px;
+}
+
+.b{
+    float: left;
+    background-color: #0f0;
+    width: 50%;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c{
+    background-color: #00f;
+}
